@@ -303,6 +303,12 @@ p {
     padding-bottom: 61px;
 }
 
+@media (max-width: 770px) {
+    .about__me {
+        padding: 50px 60px 60px 61px;
+    }
+}
+
 .about__me p {
     padding-bottom: 17.69px;
 }
@@ -323,6 +329,13 @@ p {
 .skills p {
     padding-bottom: 83.49px;
 }
+
+@media (max-width: 710px) {
+    .ph {
+        margin: 10px;
+    }
+}
+
 
 .ph p {
     font-family: 'Gilroy-Bold';
